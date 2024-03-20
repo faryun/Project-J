@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class DiceRoll : MonoBehaviour
 {
     bool isClick = false;
     public TMP_Text DiceText;
     public TMP_Text SumText;
-    int[] dice = new int[] {1,2,3,4,5,6};
+    public int[] dice = Dice.nomal;
+
     int sum = 0;
     public void Roll()
     {
