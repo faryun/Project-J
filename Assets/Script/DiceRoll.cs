@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class DiceRoll : MonoBehaviour
 {
     public TMP_Text DiceText;
