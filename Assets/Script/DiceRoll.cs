@@ -11,7 +11,7 @@ public class DiceRoll : MonoBehaviour
     bool isClick = false;
     public TMP_Text DiceText;
     public TMP_Text SumText;
-    public int[] dice = Dice.nomal;
+    public int[] dice = DiceList.nomal_dice;
 
     int sum = 0;
     public void Roll()
